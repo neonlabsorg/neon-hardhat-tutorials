@@ -18,3 +18,9 @@
 
 # Hardhat coverage reports
 /coverage
+
+.env
+coverage
+coverage.json
+typechain
+typechain-types
