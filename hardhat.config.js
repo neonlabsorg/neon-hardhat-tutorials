@@ -1,8 +1,27 @@
 import hardhatToolboxMochaEthersPlugin from "@nomicfoundation/hardhat-toolbox-mocha-ethers";
-import "./custom-tasks.js";
+import {
+  setSecretTask,
+  getSecretTask,
+  listSecretsTask,
+  deleteSecretTask,
+  displayKeystoreFilePathTask,
+  isSecretSetTask,
+  askPasswordTask,
+  decryptSecretTask,
+} from "./custom-tasks.js";
 
 const config = {
   plugins: [hardhatToolboxMochaEthersPlugin],
+  tasks: [
+    setSecretTask,
+    getSecretTask,
+    listSecretsTask,
+    deleteSecretTask,
+    displayKeystoreFilePathTask,
+    isSecretSetTask,
+    askPasswordTask,
+    decryptSecretTask,
+  ],
   solidity: {
     compilers: [
       {
