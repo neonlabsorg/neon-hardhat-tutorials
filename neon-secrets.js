@@ -7,7 +7,11 @@ import "dotenv/config";
 
 // Secret variables' keys
 const keystorePasswordKey = "KEYSTORE_PASSWORD";
-const secretsKeys = ["PRIVATE_KEY_OWNER", "PRIVATE_KEY_SOLANA"];
+const secretsKeys = [
+  "PRIVATE_KEY_OWNER",
+  "PRIVATE_KEY_SOLANA",
+  "PRIVATE_KEY_USER_1",
+];
 
 export async function getSecrets() {
   const ethers = (await hre.network.connect()).ethers;
