@@ -40,7 +40,7 @@ async function main() {
 
   const connection = new web3.Connection(SOLANA_NODE, "processed");
 
-  const tokenMintPublicKey = "8hQ8pZXBvTXim93E9TyweEucUJ9MLkcxaaYZPedyC2M";
+  const tokenMintPublicKey = "";
   if (tokenMintPublicKey == "") {
     return console.error(
       "Before proceeding with instructions execution please set value for the tokenMintPublicKey variable."
