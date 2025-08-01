@@ -1,0 +1,42 @@
+{
+  "name": "neon-hardhat-tutorials",
+  "type": "module",
+  "version": "1.0.0",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-ethers": "^4.0.0-next.20",
+    "@nomicfoundation/hardhat-ethers-chai-matchers": "^3.0.0-next.20",
+    "@nomicfoundation/hardhat-ignition": "^3.0.0-next.20",
+    "@nomicfoundation/hardhat-ignition-ethers": "^3.0.0-next.20",
+    "@nomicfoundation/hardhat-keystore": "^3.0.0-next.20",
+    "@nomicfoundation/hardhat-mocha": "^3.0.0-next.20",
+    "@nomicfoundation/hardhat-network-helpers": "^3.0.0-next.20",
+    "@nomicfoundation/hardhat-toolbox-mocha-ethers": "^3.0.0-next.20",
+    "@nomicfoundation/hardhat-typechain": "^3.0.0-next.20",
+    "@nomicfoundation/hardhat-verify": "^3.0.0-next.20",
+    "@nomicfoundation/ignition-core": "^3.0.0-next.20",
+    "@types/chai": "^4.3.20",
+    "@types/chai-as-promised": "^8.0.2",
+    "@types/mocha": "^10.0.10",
+    "@types/node": "^22.15.33",
+    "chai": "^5.2.0",
+    "decimal.js": "^10.4.3",
+    "dotenv": "^16.3.1",
+    "ethers": "^6.14.4",
+    "forge-std": "github:foundry-rs/forge-std#v1.9.4",
+    "hardhat": "^3.0.0-next.20",
+    "mocha": "^11.7.1",
+    "typescript": "~5.8.0"
+  },
+  "dependencies": {
+    "@chainlink/contracts": "^1.4.0",
+    "@openzeppelin/contracts": "^5.3.0",
+    "@solana/spl-token": "^0.4.6",
+    "@solana/web3.js": "^1.98.0",
+    "@metaplex-foundation/js": "^0.20.1",
+    "@metaplex-foundation/mpl-token-metadata": "^2.13.0",
+    "cross-fetch": "^4.1.0",
+    "decimal.js": "^10.4.3",
+    "solady": "^0.1.10",
+    "solidity-docgen": "^0.6.0-beta.36"
+  }
+}
